@@ -6,9 +6,9 @@ package com.samuliheljo.banking
  */
 object BankingReferenceNumberCalculator {
   
-	/**
-	 * Does calculation from given String and returns results as padded String
-	 */
+    /**
+     * Does calculation from given String and returns results as padded String
+     */
     def calculate(from: String): String = {
         
         /* length is 3-19 numbers */
