@@ -1,0 +1,1 @@
+mvn clean -Dspecs2.commandline="console" scala:compile scala:testCompile test
