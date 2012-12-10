@@ -12,7 +12,7 @@ object BankingReferenceNumberCalculator {
     def calculate(from: String): String = {
         
         /* length is 3-19 numbers */
-   		var cleaned = from.replaceAll(" ","")
+        var cleaned = from.replaceAll(" ","")
         require(cleaned.length <= 19)
         require(cleaned.length >= 3)
         
